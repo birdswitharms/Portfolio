@@ -2,12 +2,11 @@ import * as THREE from 'three';
 
 export function initParticles() {
   var mousePos = {x:.5,y:.5};
-  document.addEventListener('mousemove', function (event) {  mousePos = {x:event.clientX/window.innerWidth, y:event.clientY/window.innerHeight};});
   var phase = 0;
 
   var scene = new THREE.Scene();
   var camera = new THREE.PerspectiveCamera(95, window.innerWidth / window.innerHeight, 0.1, 1000);
-  camera.position.z = 15;
+  camera.position.z = 10;
 
   var renderer = new THREE.WebGLRenderer();
   renderer.setSize(window.innerWidth, window.innerHeight);
@@ -16,7 +15,7 @@ export function initParticles() {
 
   var boxSize = 0.2;
   var geometry = new THREE.BoxGeometry(boxSize, boxSize, boxSize);
-  var materialGreen = new THREE.MeshBasicMaterial({transparent: true,  color: "#FF5C5C",  opacity: 0.4,  side: THREE.DoubleSide});
+  var materialGreen = new THREE.MeshBasicMaterial({transparent: true,  color: "red",  opacity: 0.4,  side: THREE.DoubleSide});
 
   var pitchSegments = 60;
   var elevationSegments = pitchSegments/2;
