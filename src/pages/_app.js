@@ -10,11 +10,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <div id="particle-container"></div>
-      <div className="text-left ml-24 mt-24">
+      <div className="text-left text-2xl ml-24 mt-24">
         <div>Andrew Segal.</div>
         <div>Software Developer.</div>
         <br />
-        <Link className="hover:underline" href="/"><span>&#8592;</span> back</Link>
+        <div className="text-lg"><Link className="hover:underline" href="/"><span>&#8592;</span> back</Link></div>
       </div>
       <Component {...pageProps} />
     </div>

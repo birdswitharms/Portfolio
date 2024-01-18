@@ -3,11 +3,11 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <section className="flex min-h-screen flex-col justify-between p-24">
-      <div className="text-left">
+      <div className="text-left text-2xl">
         <div>Andrew Segal.</div>
         <div>Software Developer.</div>
       </div>
-      <div className="text-left">
+      <div className="text-left w-48">
         <Link href="/experience">
           <div className="hover:underline">Experience <span>&#8594;</span></div>
         </Link>
