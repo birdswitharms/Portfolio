@@ -1,12 +1,27 @@
 import React from 'react';
 import '../app/globals.css'
-import Link from 'next/link'
+import emailjs from 'emailjs-com';
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+    process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+    e.target,
+    process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+  ).then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+}
 
 const Contact = () => {
   return (
     <section className="flex min-h-screen justify-between p-24">
       <div className="flex-row w-96">
-        <form>
+        <form onSubmit={sendEmail}>
           <div className="mb-4 ">
             <label><div className="mb-1">Name</div></label>
             <input className="w-full text-black pl-2 bg-gray-300 rounded" type="text" name="name" />
@@ -27,3 +42,4 @@ const Contact = () => {
 }
 
 export default Contact;
+
