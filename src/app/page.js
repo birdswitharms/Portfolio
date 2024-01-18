@@ -8,8 +8,11 @@ export default function Home() {
         <div>Software Developer.</div>
       </div>
       <div className="text-left">
+        <Link href="/experience">
+          <div className="hover:underline">Experience <span>&#8594;</span></div>
+        </Link>
         <Link href="/projects">
-          <div className="hover:underline">Projects <span>&#8594;</span></div>
+          <div className="hover:underline">Personal Projects <span>&#8594;</span></div>
         </Link>
         <Link href="/info">
           <div className="hover:underline">Info <span>&#8594;</span></div>
