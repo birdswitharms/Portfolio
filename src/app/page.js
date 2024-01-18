@@ -14,8 +14,8 @@ export default function Home() {
         <Link href="/projects">
           <div className="hover:underline">Personal Projects <span>&#8594;</span></div>
         </Link>
-        <Link href="/info">
-          <div className="hover:underline">Info <span>&#8594;</span></div>
+        <Link href="/technologies">
+          <div className="hover:underline">Technologies <span>&#8594;</span></div>
         </Link>
         <Link href="/contact">
           <div className="hover:underline">Contact <span>&#8594;</span></div>
