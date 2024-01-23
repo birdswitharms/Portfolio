@@ -1,10 +1,10 @@
 import React from 'react';
-import '../app/globals.css'
+import '../globals.css'
 import Link from 'next/link'
 
 export default function Experience() {
   return (
-    <section className="flex min-h-screen flex-col justify-between p-24">
+    <section id="experience" className="flex min-h-screen flex-col justify-between p-24">
       <div>
         <div>
           <Link className="hover:underline" href="https://altrio.com/">Altrio <span>&#8594;</span></Link>

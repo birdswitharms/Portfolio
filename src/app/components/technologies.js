@@ -1,13 +1,12 @@
 import React from 'react';
-import '../app/globals.css'
-import Link from 'next/link'
+import '../globals.css'
 
 const front = ["Javascript", "React", "Redux", "Tailwind", "Next.js", "CSS", "Bootstrap", "Material UI", "Jest", "React Testing Library", "Webpack", "ESLint"]
 const back = ["Ruby", "Elixir", "Ruby on Rails", "Stimulus", "Turbo frames", "Pheonix", "PostgreSQL", "Relational Databases", "Sidekiq", "Rspec", "GraphQL", "Heroku", "AWS"]
 
-const Technologies = () => {
+export default function Technologies() {
   return (
-    <section className="flex min-h-screen p-24">
+    <section id="technologies" className="flex min-h-screen p-24">
       <div className="flex-col mr-24">
         <div className="underline">Front-end</div>
         <div className="text-sm">{front.map((skill) => {
@@ -27,5 +26,3 @@ const Technologies = () => {
     </section>
   )
 }
-
-export default Technologies;

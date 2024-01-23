@@ -1,26 +1,15 @@
-import Link from 'next/link'
+import Intro from "./components/intro"
+import Projects from "./components/projects"
+import Experience from "./components/experience"
+import Technologies from "./components/technologies"
 
 export default function Home() {
   return (
-    <section className="flex min-h-screen flex-col justify-between p-24">
-      <div className="text-left text-2xl">
-        <div>Andrew Segal.</div>
-        <div>Software Developer.</div>
-      </div>
-      <div className="text-left w-48">
-        <Link href="/experience">
-          <div className="hover:underline">Experience <span>&#8594;</span></div>
-        </Link>
-        <Link href="/projects">
-          <div className="hover:underline">Personal Projects <span>&#8594;</span></div>
-        </Link>
-        <Link href="/technologies">
-          <div className="hover:underline">Technologies <span>&#8594;</span></div>
-        </Link>
-        <Link href="/contact">
-          <div className="hover:underline">Contact <span>&#8594;</span></div>
-        </Link>
-      </div>
-    </section>
+    <main className="flex flex-col justify-between p-24">
+      <Intro />
+      <Projects />
+      <Experience />
+      <Technologies />
+    </main>
   )
 }
