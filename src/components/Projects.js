@@ -1,5 +1,5 @@
 import React from "react";
-import "../globals.css";
+import "../app/globals.css";
 import Link from "next/link";
 import PageFooter from "./PageFooter";
 import {
