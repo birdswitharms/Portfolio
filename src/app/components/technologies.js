@@ -1,6 +1,5 @@
 import React from "react";
 import "../globals.css";
-import PageFooter from "./PageFooter";
 
 const front = [
   "Javascript",
@@ -10,6 +9,8 @@ const front = [
   "Next.js",
   "CSS",
   "Bootstrap",
+  "ShadCN",
+  "Radix UI",
   "Material UI",
   "Jest",
   "React Testing Library",
@@ -34,11 +35,8 @@ const back = [
 
 export default function Technologies() {
   return (
-    <section
-      id="technologies"
-      className="h-[100vh] bg-muted flex p-24 flex-col"
-    >
-      <div className="ml-24 mb-24 ">
+    <section id="technologies" className="bg-muted flex p-24 flex-col">
+      <div className="ml-24 mb-24">
         <h1 className="scroll-m-20 border-b text-4xl font-extrabold tracking-tight lg:text-5xl">
           Technologies
         </h1>
@@ -48,21 +46,21 @@ export default function Technologies() {
           <div className="underline">
             <strong>Front-end</strong>
           </div>
-          <div>
+          <ul>
             {front.map((skill) => {
-              return <div key={skill}> • {skill}</div>;
+              return <li key={skill}> • {skill}</li>;
             })}
-          </div>
+          </ul>
         </div>
         <div>
           <div className="underline">
             <strong>Back-end</strong>
           </div>
-          <div>
+          <ul>
             {back.map((skill) => {
-              return <div key={skill}> • {skill}</div>;
+              return <li key={skill}> • {skill}</li>;
             })}
-          </div>
+          </ul>
         </div>
       </div>
     </section>
