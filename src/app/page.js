@@ -1,8 +1,8 @@
-import Intro from "../components/Intro";
-import Projects from "../components/Projects";
-import Experience from "../components/Experience";
-import Technologies from "../components/Technologies";
-import NavBar from "../components/NavBar";
+import Intro from "./components/Intro";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Technologies from "./components/Technologies";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
