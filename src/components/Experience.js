@@ -62,7 +62,7 @@ const experience = [
   {
     url: "https://generalassemb.ly/",
     name: "Bitmaker Labs - General Assembly Bootcamp",
-    date: "",
+    date: "2018",
     description: "Completed a in-person 12 week bootcamp in Toronto, ON.",
     details: [
       "Learned the fundamentals of programming using Ruby",

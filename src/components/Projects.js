@@ -59,7 +59,7 @@ export default function Projects() {
           );
         })}
       </div>
-      <div className="mt-auto py-8">
+      <div className="mt-auto mx-auto py-8">
         <PageFooter target="experience" />
       </div>
     </section>

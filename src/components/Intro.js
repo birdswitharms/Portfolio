@@ -16,7 +16,10 @@ export default function Intro() {
         <br />I also enjoy weightlifting, rock climbing, painting and video
         games (factory games anyone?).
       </div>
-      <PageFooter target="projects" />
+      <hr />
+      <div className="mx-auto py-4">
+        <PageFooter target="projects" />
+      </div>
     </section>
   );
 }

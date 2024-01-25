@@ -110,6 +110,10 @@ a {
   padding-left: 0.75em;
 }
 
+hr {
+  border-bottom-width: 3px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
