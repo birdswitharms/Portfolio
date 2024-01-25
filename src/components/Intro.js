@@ -3,7 +3,7 @@ import PageFooter from "./PageFooter";
 
 export default function Intro() {
   return (
-    <section id="intro" className="text-left text-lg h-[100vh] m-24">
+    <section id="intro" className="text-left text-lg h-[100dvh] m-12 md:m-24">
       <div className="text-foreground h-[67vh]">
         Hi, welcome to my site!
         <br />

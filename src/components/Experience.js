@@ -76,7 +76,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="flex min-h-screen flex-col justify-between p-24"
+      className="flex min-h-screen flex-col justify-between pt-24"
     >
       <div className="ml-24 mb-24">
         <h1 className="scroll-m-20 border-b text-4xl font-extrabold tracking-tight lg:text-5xl">
@@ -118,7 +118,7 @@ export default function Experience() {
           );
         })}
       </div>
-      <div className="mt-auto pt-8">
+      <div className="mt-auto py-8">
         <PageFooter target="technologies" />
       </div>
     </section>

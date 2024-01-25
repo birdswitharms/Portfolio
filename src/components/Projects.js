@@ -40,7 +40,7 @@ export default function Projects() {
           Projects
         </h1>
       </div>
-      <div className="mx-24 p-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="md:mx-24 p-4 grid grid-cols-1 md:grid-cols-3 gap-4">
         {projects.map((project) => {
           return (
             <Card key={project.name}>
@@ -59,7 +59,7 @@ export default function Projects() {
           );
         })}
       </div>
-      <div className="mt-auto p-4">
+      <div className="mt-auto py-8">
         <PageFooter target="experience" />
       </div>
     </section>

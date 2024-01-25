@@ -36,13 +36,13 @@ const back = [
 export default function Technologies() {
   return (
     <section id="technologies" className="bg-muted flex p-24 flex-col">
-      <div className="ml-24 mb-24">
+      <div className="mb-24 -ml-4">
         <h1 className="scroll-m-20 border-b text-4xl font-extrabold tracking-tight lg:text-5xl">
           Technologies
         </h1>
       </div>
-      <div className="grid grid-cols-2 mx-auto gap-8 w-3/4 text-lg">
-        <div>
+      <div className="grid grid-cols-2 md:mx-auto w-full md:w-3/4 text-lg">
+        <div className="min-w-28">
           <div className="underline">
             <strong>Front-end</strong>
           </div>
@@ -52,7 +52,7 @@ export default function Technologies() {
             })}
           </ul>
         </div>
-        <div>
+        <div className="min-w-28">
           <div className="underline">
             <strong>Back-end</strong>
           </div>
