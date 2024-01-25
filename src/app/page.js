@@ -1,15 +1,17 @@
-import Intro from "./components/intro"
-import Projects from "./components/projects"
-import Experience from "./components/experience"
-import Technologies from "./components/technologies"
+import Intro from "./components/Intro";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Technologies from "./components/Technologies";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-between p-24">
+    <main className="flex flex-col">
+      <NavBar />
       <Intro />
       <Projects />
       <Experience />
       <Technologies />
     </main>
-  )
+  );
 }
