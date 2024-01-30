@@ -37,11 +37,11 @@ export default function Technologies() {
   return (
     <section id="technologies" className="flex p-24 flex-col">
       <div className="mb-24 -ml-4">
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+        <h1 className="animate-movement scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Technologies
         </h1>
       </div>
-      <div className="grid grid-cols-2 md:mx-auto w-full md:w-3/4 text-lg">
+      <div className="grid grid-cols-2 md:mx-auto w-full md:w-3/4 text-lg animate-hidden">
         <div className="min-w-28">
           <div className="underline">
             <strong>Front-end</strong>

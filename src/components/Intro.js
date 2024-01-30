@@ -4,7 +4,7 @@ import PageFooter from "./PageFooter";
 export default function Intro() {
   return (
     <section id="intro" className="text-left text-lg h-[100dvh] m-12 md:m-24">
-      <div className="text-foreground h-[67vh]">
+      <div className="text-foreground h-[67vh] animate-hidden">
         Hi, welcome to my site!
         <br />
         My name is Andrew, and I am a developer with a background in Industrial

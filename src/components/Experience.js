@@ -79,14 +79,14 @@ export default function Experience() {
       className="flex min-h-screen flex-col justify-between pt-24"
     >
       <div className="ml-24 mb-24">
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+        <h1 className="animate-movement scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Experience
         </h1>
       </div>
       <div className="w-1/2 mx-auto">
         {experience.map((exp) => {
           return (
-            <Card className="mb-6" key={exp.name}>
+            <Card className="mb-6 animate-hidden" key={exp.name}>
               <CardHeader>
                 <CardTitle>{exp.name}</CardTitle>
                 <CardDescription>{exp.date}</CardDescription>

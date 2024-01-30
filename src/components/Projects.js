@@ -36,14 +36,14 @@ export default function Projects() {
       className="pt-24 text-primary flex min-h-screen flex-col"
     >
       <div className="ml-24 mb-24">
-        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+        <h1 className="animate-movement scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Projects
         </h1>
       </div>
       <div className="md:mx-24 p-4 grid grid-cols-1 md:grid-cols-3 gap-4">
         {projects.map((project) => {
           return (
-            <Card key={project.name}>
+            <Card className="animate-hidden" key={project.name}>
               <CardHeader>
                 <CardTitle>{project.name}</CardTitle>
               </CardHeader>
