@@ -35,9 +35,9 @@ const back = [
 
 export default function Technologies() {
   return (
-    <section id="technologies" className="bg-muted flex p-24 flex-col">
+    <section id="technologies" className="flex p-24 flex-col">
       <div className="mb-24 -ml-4">
-        <h1 className="scroll-m-20 border-b text-4xl font-extrabold tracking-tight lg:text-5xl">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Technologies
         </h1>
       </div>

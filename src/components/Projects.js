@@ -33,10 +33,10 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="pt-24 text-primary bg-muted flex min-h-screen flex-col"
+      className="pt-24 text-primary flex min-h-screen flex-col"
     >
       <div className="ml-24 mb-24">
-        <h1 className="scroll-m-20 border-b text-4xl font-extrabold tracking-tight lg:text-5xl">
+        <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Projects
         </h1>
       </div>
