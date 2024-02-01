@@ -59,31 +59,20 @@ const experience = [
       "Writing well-tested, understandable code",
     ],
   },
-  {
-    url: "https://generalassemb.ly/",
-    name: "Bitmaker Labs - General Assembly Bootcamp",
-    date: "2018",
-    description: "Completed a in-person 12 week bootcamp in Toronto, ON.",
-    details: [
-      "Learned the fundamentals of programming using Ruby",
-      "Learned the fundamentals of web development using HTML, CSS, and JavaScript",
-      "Built a final project (My Kitchen) with a partner and was able to get my first job from an industry night event",
-    ],
-  },
 ];
 
 export default function Experience() {
   return (
     <section
       id="experience"
-      className="flex min-h-screen flex-col justify-between pt-24"
+      className="pt-24 text-primary flex flex-col min-h-screen  h-[100dvh] md:m-24"
     >
-      <div className="ml-24 mb-24">
+      <div className="ml-12 mb-12 sm:ml-24 sm:mb-24">
         <h1 className="animate-movement scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Experience
         </h1>
       </div>
-      <div className="w-1/2 mx-auto">
+      <div className="md:mx-24 p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {experience.map((exp) => {
           return (
             <Card className="mb-6 animate-hidden" key={exp.name}>

@@ -8,7 +8,9 @@ const NavBar = () => {
       <div className="justify-center items-center flex mr-24 w-1/2">
         <></>
       </div>
-      <ModeToggle />
+      <div className="pr-2">
+        <ModeToggle />
+      </div>
     </nav>
   );
 };

@@ -3,7 +3,10 @@ import PageFooter from "./PageFooter";
 
 export default function Intro() {
   return (
-    <section id="intro" className="text-left text-lg h-[100dvh] m-12 md:m-24">
+    <section
+      id="intro"
+      className="text-center sm:text-left text-lg h-[100vh] m-12 md:m-24"
+    >
       <div className="text-foreground h-[67vh] animate-hidden">
         Hello and thank you for visiting my portfolio. <br />
         I&apos;m Andrew, a passionate Software Engineer with a unique background
@@ -14,7 +17,7 @@ export default function Intro() {
         aesthetically pleasing but also function seamlessly across various
         devices.
       </div>
-      <div className="mx-auto py-4 mb-4">
+      <div className="mx-auto">
         <PageFooter target="projects" />
       </div>
     </section>
