@@ -5,7 +5,7 @@ export default function Intro() {
   return (
     <section
       id="intro"
-      className="text-center sm:text-left text-lg h-[100vh] m-12 md:m-24"
+      className="text-center sm:text-left text-lg  m-12 md:m-24"
     >
       <div className="text-foreground h-[67vh] animate-hidden">
         Hello and thank you for visiting my portfolio. <br />

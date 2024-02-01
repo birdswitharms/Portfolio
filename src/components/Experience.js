@@ -65,7 +65,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="pt-24 text-primary flex flex-col min-h-screen  h-[100dvh] md:m-24"
+      className="pt-24 text-primary flex flex-col min-h-screen md:m-24"
     >
       <div className="ml-12 mb-12 sm:ml-24 sm:mb-24">
         <h1 className="animate-movement scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
