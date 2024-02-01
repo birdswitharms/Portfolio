@@ -27,8 +27,6 @@ export default function Home() {
       allElements.forEach((element) => {
         observer.observe(element);
       });
-
-      console.log("fired!");
     }
   }, []); // The empty array makes this effect run only once
 
